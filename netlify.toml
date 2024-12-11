@@ -2,4 +2,7 @@
   functions = "functions"
 
 [functions]
-  runtime = "python"
+  node_bundler = "esbuild"
+
+[functions.runtime]
+  python_version = "3.9"
